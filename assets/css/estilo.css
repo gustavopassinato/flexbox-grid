@@ -63,3 +63,7 @@ body{
     position: absolute;
     left: 24px;
 }
+
+.menu-lateral__link--inicio::before{
+    
+}
