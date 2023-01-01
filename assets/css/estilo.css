@@ -39,6 +39,15 @@ body{
     background-color: #15191C;
     width: 75vw;
     height: 100vh;
+
+    position: absolute;
+    left: -100vw;
+    transition: .45s;
+}
+
+.menu-lateral--ativo{
+    left: 0;
+    transition: .45s;
 }
 
 .menu-lateral__logo {
@@ -55,6 +64,12 @@ body{
     align-items: center;
 }
 
+.menu-lateral__link--ativo{
+    color: #FFFFFF;
+    padding-left: 56px;
+    border-left: 8px solid #FFFFFF;
+}
+
 .menu-lateral__link::before{
     content:"\e904";
     width: 24px;
@@ -65,5 +80,26 @@ body{
 }
 
 .menu-lateral__link--inicio::before{
-    
+    content: "\e902";
 }
+
+.menu-lateral__link--videos::before{
+    content: "\e90e";
+}
+
+.menu-lateral__link--picos::before{
+    content: "\e909";
+}
+
+.menu-lateral__link--integrantes::before{
+    content: "\e903";
+}
+
+.menu-lateral__link--camisa::before{
+    content: "\e900";
+}
+
+.menu-lateral__link--pinturas::before{
+    content: "\e90a";
+}
+
